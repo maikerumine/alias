@@ -24,6 +24,7 @@ minetest.register_alias("vendorgoldblock:depositor", "smartshop:shop")
 
 
 minetest.register_alias("tnt:tnt", "default:wood")
+minetest.register_alias("tsm_mines:dummy", "default:torch")
 
 minetest.register_alias("bedrock2:bedrock", "default:coalblock")
 
@@ -74,8 +75,8 @@ minetest.register_alias("3d_armor:boots_aikerum", "es:boots_aikerum")
 minetest.register_alias("3d_armor:boots_emerald", "es:boots_emerald")
 minetest.register_alias("3d_armor:boots_infinium", "es:boots_infinium")
 
---minetest.register_alias("doors:door_wood_t_1", "default:wood")
---minetest.register_alias("doors:door_wood_b_1", "default:wood")
+minetest.register_alias("doors:door_wood_t_1", "default:wood")
+minetest.register_alias("doors:door_wood_b_1", "default:wood")
 --minetest.register_alias("doors:door_wood_t_2", "default:wood")
 
 minetest.register_alias("beds:bed_bottom_white", "default:wood")

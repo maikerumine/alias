@@ -158,6 +158,7 @@ minetest.register_alias("moretrees:fir_leaves_bright", "default:pine_needles")
 minetest.register_alias("moretrees:coconut", "farming:cocoa_2")
 minetest.register_alias("moretrees:spruce_cone", "farming:melon_8")
 minetest.register_alias("moretrees:fir_cone", "farming:cocoa_2")
+minetest.register_alias("moretrees:pine_cone", "farming:cocoa_2")
 minetest.register_alias("moretrees:acorn", "farming:cocoa_2")
 
 

@@ -12,6 +12,10 @@
 --Media(if not stated differently):
 --(c) Copyright (2014-2015) maikerumine; CC-BY-SA 3.0
 
+minetest.register_alias("stairs:slab_Dirt", "stairs:slab_dirt")
+
+
+
 es = {}
 --need micro""_1
 --need micro""_2
@@ -1299,13 +1303,13 @@ minetest.register_alias("moreblocks:stair_desert_stonebrick_inner", "stairs:invc
 
 --glass
 --micro
-minetest.register_alias("moreblocks:micro_glass", "walls:glass")
-minetest.register_alias("moreblocks:micro_glass_1", "walls:glass")
-minetest.register_alias("moreblocks:micro_glass_2", "walls:glass")
-minetest.register_alias("moreblocks:micro_glass_4", "walls:glass")
-minetest.register_alias("moreblocks:micro_glass_12", "walls:glass")
-minetest.register_alias("moreblocks:micro_glass_14", "walls:glass")
-minetest.register_alias("moreblocks:micro_glass_15", "walls:glass")
+minetest.register_alias("moreblocks:micro_glass", "default:glass")
+minetest.register_alias("moreblocks:micro_glass_1", "default:glass")
+minetest.register_alias("moreblocks:micro_glass_2", "default:glass")
+minetest.register_alias("moreblocks:micro_glass_4", "default:glass")
+minetest.register_alias("moreblocks:micro_glass_12", "default:glass")
+minetest.register_alias("moreblocks:micro_glass_14", "default:glass")
+minetest.register_alias("moreblocks:micro_glass_15", "default:glass")
 --stair/slab
 minetest.register_alias("moreblocks:stair_glass", "stairs:stair_glass")
 minetest.register_alias("moreblocks:slab_glass", "stairs:slab_glass")
@@ -1364,13 +1368,13 @@ minetest.register_alias("moreblocks:stair_glass_inner", "stairs:invcorner_glass"
 
 --obsidian_glass
 --micro
-minetest.register_alias("moreblocks:micro_obsidian_glass", "walls:obsidian_glass")
-minetest.register_alias("moreblocks:micro_obsidian_glass_1", "walls:obsidian_glass")
-minetest.register_alias("moreblocks:micro_obsidian_glass_2", "walls:obsidian_glass")
-minetest.register_alias("moreblocks:micro_obsidian_glass_4", "walls:obsidian_glass")
-minetest.register_alias("moreblocks:micro_obsidian_glass_12", "walls:obsidian_glass")
-minetest.register_alias("moreblocks:micro_obsidian_glass_14", "walls:obsidian_glass")
-minetest.register_alias("moreblocks:micro_obsidian_glass_15", "walls:obsidian_glass")
+minetest.register_alias("moreblocks:micro_obsidian_glass", "default:obsidian_glass")
+minetest.register_alias("moreblocks:micro_obsidian_glass_1", "default:obsidian_glass")
+minetest.register_alias("moreblocks:micro_obsidian_glass_2", "default:obsidian_glass")
+minetest.register_alias("moreblocks:micro_obsidian_glass_4", "default:obsidian_glass")
+minetest.register_alias("moreblocks:micro_obsidian_glass_12", "default:obsidian_glass")
+minetest.register_alias("moreblocks:micro_obsidian_glass_14", "default:obsidian_glass")
+minetest.register_alias("moreblocks:micro_obsidian_glass_15", "default:obsidian_glass")
 --stair/slab
 minetest.register_alias("moreblocks:stair_obsidian_glass", "stairs:stair_obsidian_glass")
 minetest.register_alias("moreblocks:slab_obsidian_glass", "stairs:slab_obsidian_glass")
@@ -2279,7 +2283,9 @@ minetest.register_alias("es:micro_emeraldblock_12", "walls:emerald")
 minetest.register_alias("es:micro_emeraldblock_14", "walls:emerald")
 minetest.register_alias("es:micro_emeraldblock_15", "walls:emerald")
 --stair/slab
+minetest.register_alias("stairs:stair_Emerald", "stairs:stair_emerald")
 minetest.register_alias("es:stair_Emerald", "stairs:stair_emerald")
+minetest.register_alias("stairs:slab_Emerald", "stairs:slab_emerald")
 minetest.register_alias("es:slab_Emerald", "stairs:slab_emerald")
 --slope
 minetest.register_alias("es:slope_emeraldblock", "stairs:slope_emerald")
@@ -2339,7 +2345,9 @@ minetest.register_alias("es:micro_rubyblock_12", "walls:ruby")
 minetest.register_alias("es:micro_rubyblock_14", "walls:ruby")
 minetest.register_alias("es:micro_rubyblock_15", "walls:ruby")
 --stair/slab
+minetest.register_alias("stair:stair_Ruby", "stairs:stair_ruby")
 minetest.register_alias("es:stair_Ruby", "stairs:stair_ruby")
+minetest.register_alias("stair:slab_Ruby", "stairs:slab_ruby")
 minetest.register_alias("es:slab_Ruby", "stairs:slab_ruby")
 --slope
 minetest.register_alias("es:slope_rubyblock", "stairs:slope_ruby")
@@ -2399,8 +2407,9 @@ minetest.register_alias("es:micro_aikerumblock_12", "walls:aikerum")
 minetest.register_alias("es:micro_aikerumblock_14", "walls:aikerum")
 minetest.register_alias("es:micro_aikerumblock_15", "walls:aikerum")
 --stair/slab
-minetest.register_alias("stairs:stair_Aikerum", "stairs:stair_aikerum")
+minetest.register_alias("stairs:stair_Aikerum", "stairs:stair_aikerum")  --change es to stair on all es this
 minetest.register_alias("es:stair_Aikerum", "stairs:stair_aikerum")
+minetest.register_alias("stairs:slab_Aikerum", "stairs:slab_aikerum")
 minetest.register_alias("es:slab_Aikerum", "stairs:slab_aikerum")
 --slope
 minetest.register_alias("es:slope_aikerumblock", "stairs:slope_aikerum")
@@ -2453,16 +2462,18 @@ minetest.register_alias("es:stair_aikerumblock_inner", "stairs:invcorner_aikerum
 
 --infiniumblock
 --micro
-minetest.register_alias("es:micro_Infinium", "walls:infinium")
-minetest.register_alias("es:micro_Infinium_1", "walls:infinium")
-minetest.register_alias("es:micro_Infinium_2", "walls:infinium")
-minetest.register_alias("es:micro_Infinium_4", "walls:infinium")
-minetest.register_alias("es:micro_Infinium_12", "walls:infinium")
-minetest.register_alias("es:micro_Infinium_14", "walls:infinium")
-minetest.register_alias("es:micro_Infinium_15", "walls:infinium")
+minetest.register_alias("es:micro_infiniumblock", "walls:infiniumblock")
+minetest.register_alias("es:micro_infiniumblock_1", "walls:infiniumblock")
+minetest.register_alias("es:micro_infiniumblock_2", "walls:infiniumblock")
+minetest.register_alias("es:micro_infiniumblock_4", "walls:infiniumblock")
+minetest.register_alias("es:micro_infiniumblock_12", "walls:infiniumblock")
+minetest.register_alias("es:micro_infiniumblock_14", "walls:infiniumblock")
+minetest.register_alias("es:micro_infiniumblock_15", "walls:infiniumblock")
 --stair/slab
-minetest.register_alias("es:stair_Infinium", "stairs:stair_infinium")
-minetest.register_alias("stairs:slab_Infinium", "stairs:slab_infinium")
+minetest.register_alias("stairs:stair_infiniumblock", "stairs:stair_infinium")
+minetest.register_alias("es:stair_infiniumblock", "stairs:stair_infinium")
+minetest.register_alias("stairs:slab_infiniumblock", "stairs:slab_infinium")
+minetest.register_alias("es:slab_infiniumblock", "stairs:slab_infinium")
 --slope
 minetest.register_alias("es:slope_infiniumblock", "stairs:slope_infinium")
 minetest.register_alias("es:slope_infiniumblock_half", "stairs:slope_infinium")
@@ -2521,7 +2532,9 @@ minetest.register_alias("es:micro_purpelliumblock_12", "walls:Purpellium")
 minetest.register_alias("es:micro_purpelliumblock_14", "walls:Purpellium")
 minetest.register_alias("es:micro_purpelliumblock_15", "walls:Purpellium")
 --stair/slab
+minetest.register_alias("stairs:stair_Purpelliumblock", "stairs:stair_purpellium")
 minetest.register_alias("es:stair_Purpelliumblock", "stairs:stair_purpellium")
+minetest.register_alias("stairs:slab_Purpelliumblock", "stairs:slab_purpellium")
 minetest.register_alias("es:slab_Purpelliumblock", "stairs:slab_purpellium")
 --slope
 minetest.register_alias("es:slope_purpelliumblock", "stairs:slope_purpellium")
@@ -2582,7 +2595,9 @@ minetest.register_alias("es:micro_boneblock_12", "walls:boneblock")
 minetest.register_alias("es:micro_boneblock_14", "walls:boneblock")
 minetest.register_alias("es:micro_boneblock_15", "walls:boneblock")
 --stair/slab
+minetest.register_alias("stairs:stair_boneblock", "stairs:stair_boneblock")
 minetest.register_alias("es:stair_boneblock", "stairs:stair_boneblock")
+minetest.register_alias("stairs:slab_boneblock", "stairs:slab_boneblock")
 minetest.register_alias("es:slab_boneblock", "stairs:slab_boneblock")
 --slope
 minetest.register_alias("es:slope_boneblock", "stairs:slope_boneblock")
